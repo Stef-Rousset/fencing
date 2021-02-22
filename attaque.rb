@@ -1,4 +1,4 @@
-require_relative 'defense'
+#require_relative 'defense'
 
 class Attaque < Combat
   def initialize(combat)

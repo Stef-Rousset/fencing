@@ -1,6 +1,3 @@
-require_relative 'attaque'
-require_relative 'defense'
-
 class Combat
   @@score = 0
   @@oponent_score = 0
@@ -50,5 +47,7 @@ class Combat
   end
 end
 
+require_relative 'attaque'
+require_relative 'defense'
 #my_match = Combat.new
 #my_match.begin_game
